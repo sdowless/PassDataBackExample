@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2321ED3D21D15F2000B9C5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321ED3C21D15F2000B9C5C7 /* AppDelegate.swift */; };
-		2321ED3F21D15F2000B9C5C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321ED3E21D15F2000B9C5C7 /* ViewController.swift */; };
 		2321ED4221D15F2000B9C5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321ED4021D15F2000B9C5C7 /* Main.storyboard */; };
 		2321ED4521D15F2000B9C5C7 /* ContactsTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2321ED4321D15F2000B9C5C7 /* ContactsTutorial.xcdatamodeld */; };
 		2321ED4721D15F2100B9C5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2321ED4621D15F2100B9C5C7 /* Assets.xcassets */; };
 		2321ED4A21D15F2100B9C5C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321ED4821D15F2100B9C5C7 /* LaunchScreen.storyboard */; };
+		2321ED5221D15F3900B9C5C7 /* ContactsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321ED5121D15F3900B9C5C7 /* ContactsControllers.swift */; };
+		2321ED5421D15F5400B9C5C7 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321ED5321D15F5400B9C5C7 /* AddContactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2321ED3921D15F2000B9C5C7 /* ContactsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2321ED3C21D15F2000B9C5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2321ED3E21D15F2000B9C5C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2321ED4121D15F2000B9C5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2321ED4421D15F2000B9C5C7 /* ContactsTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsTutorial.xcdatamodel; sourceTree = "<group>"; };
 		2321ED4621D15F2100B9C5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2321ED4921D15F2100B9C5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2321ED4B21D15F2100B9C5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2321ED5121D15F3900B9C5C7 /* ContactsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsControllers.swift; sourceTree = "<group>"; };
+		2321ED5321D15F5400B9C5C7 /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				2321ED3C21D15F2000B9C5C7 /* AppDelegate.swift */,
-				2321ED3E21D15F2000B9C5C7 /* ViewController.swift */,
 				2321ED4021D15F2000B9C5C7 /* Main.storyboard */,
 				2321ED4621D15F2100B9C5C7 /* Assets.xcassets */,
 				2321ED4821D15F2100B9C5C7 /* LaunchScreen.storyboard */,
 				2321ED4B21D15F2100B9C5C7 /* Info.plist */,
 				2321ED4321D15F2000B9C5C7 /* ContactsTutorial.xcdatamodeld */,
+				2321ED5121D15F3900B9C5C7 /* ContactsControllers.swift */,
+				2321ED5321D15F5400B9C5C7 /* AddContactController.swift */,
 			);
 			path = ContactsTutorial;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2321ED3F21D15F2000B9C5C7 /* ViewController.swift in Sources */,
 				2321ED3D21D15F2000B9C5C7 /* AppDelegate.swift in Sources */,
+				2321ED5221D15F3900B9C5C7 /* ContactsControllers.swift in Sources */,
+				2321ED5421D15F5400B9C5C7 /* AddContactController.swift in Sources */,
 				2321ED4521D15F2000B9C5C7 /* ContactsTutorial.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF78THV97C;
 				INFOPLIST_FILE = ContactsTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF78THV97C;
 				INFOPLIST_FILE = ContactsTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
